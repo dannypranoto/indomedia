@@ -2,7 +2,7 @@
 /**
  * Template Name: Events Page Template
  *
- * Displays the Category Page Template of the theme.
+ * Displays the events Page Template of the theme.
  *
  * @package ThemeGrill
  * @subpackage ColorMag

@@ -202,16 +202,116 @@ function colormag_widgets_init() {
       'after_title'     => '</span></h3>'
    ) );
 
-   // registering the Category Page: Content Top Section Sidebar
+   // registering the News Page: Content Top Section Sidebar
    register_sidebar( array(
-      'name'            => __( 'Category Page: Content Top Section', 'colormag' ),
-      'id'              => 'colormag_category_page_content_top_section',
+      'name'            => __( 'News Page: Content Top Section', 'colormag' ),
+      'id'              => 'colormag_news_page_content_top_section',
       'description'     => __( 'Content Top Section', 'colormag' ),
       'before_widget'   => '<section id="%1$s" class="widget %2$s clearfix">',
       'after_widget'    => '</section>',
       'before_title'    => '<h3 class="widget-title"><span>',
       'after_title'     => '</span></h3>'
    ) );
+
+   // registering the Public Relation Page: Content Top Section Sidebar
+   register_sidebar( array(
+      'name'            => __( 'Public Relation Page: Content Top Section', 'colormag' ),
+      'id'              => 'colormag_pr_page_content_top_section',
+      'description'     => __( 'Content Top Section', 'colormag' ),
+      'before_widget'   => '<section id="%1$s" class="widget %2$s clearfix">',
+      'after_widget'    => '</section>',
+      'before_title'    => '<h3 class="widget-title"><span>',
+      'after_title'     => '</span></h3>'
+   ) );
+
+   // registering the Event Coverage Page: Content Top Section Sidebar
+   register_sidebar( array(
+      'name'            => __( 'Event Coverage Page: Content Top Section', 'colormag' ),
+      'id'              => 'colormag_eventcoverage_page_content_top_section',
+      'description'     => __( 'Content Top Section', 'colormag' ),
+      'before_widget'   => '<section id="%1$s" class="widget %2$s clearfix">',
+      'after_widget'    => '</section>',
+      'before_title'    => '<h3 class="widget-title"><span>',
+      'after_title'     => '</span></h3>'
+   ) );
+
+   // registering the Events Page: Content Top Section Sidebar
+   register_sidebar( array(
+      'name'            => __( 'Events Page: Content Top Section', 'colormag' ),
+      'id'              => 'colormag_events_page_content_top_section',
+      'description'     => __( 'Content Top Section', 'colormag' ),
+      'before_widget'   => '<section id="%1$s" class="widget %2$s clearfix">',
+      'after_widget'    => '</section>',
+      'before_title'    => '<h3 class="widget-title"><span>',
+      'after_title'     => '</span></h3>'
+   ) );
+
+   // registering the Technology Page: Content Top Section Sidebar
+   register_sidebar( array(
+      'name'            => __( 'Technology Page: Content Top Section', 'colormag' ),
+      'id'              => 'colormag_technology_page_content_top_section',
+      'description'     => __( 'Content Top Section', 'colormag' ),
+      'before_widget'   => '<section id="%1$s" class="widget %2$s clearfix">',
+      'after_widget'    => '</section>',
+      'before_title'    => '<h3 class="widget-title"><span>',
+      'after_title'     => '</span></h3>'
+   ) );
+
+   // registering the Food Page: Content Top Section Sidebar
+   register_sidebar( array(
+      'name'            => __( 'Food Page: Content Top Section', 'colormag' ),
+      'id'              => 'colormag_food_page_content_top_section',
+      'description'     => __( 'Content Top Section', 'colormag' ),
+      'before_widget'   => '<section id="%1$s" class="widget %2$s clearfix">',
+      'after_widget'    => '</section>',
+      'before_title'    => '<h3 class="widget-title"><span>',
+      'after_title'     => '</span></h3>'
+   ) );
+
+   // registering the Health Page: Content Top Section Sidebar
+   register_sidebar( array(
+      'name'            => __( 'Health Page: Content Top Section', 'colormag' ),
+      'id'              => 'colormag_health_page_content_top_section',
+      'description'     => __( 'Content Top Section', 'colormag' ),
+      'before_widget'   => '<section id="%1$s" class="widget %2$s clearfix">',
+      'after_widget'    => '</section>',
+      'before_title'    => '<h3 class="widget-title"><span>',
+      'after_title'     => '</span></h3>'
+   ) );
+
+   // registering the Fashion Page: Content Top Section Sidebar
+   register_sidebar( array(
+      'name'            => __( 'Fashion Page: Content Top Section', 'colormag' ),
+      'id'              => 'colormag_fashion_page_content_top_section',
+      'description'     => __( 'Content Top Section', 'colormag' ),
+      'before_widget'   => '<section id="%1$s" class="widget %2$s clearfix">',
+      'after_widget'    => '</section>',
+      'before_title'    => '<h3 class="widget-title"><span>',
+      'after_title'     => '</span></h3>'
+   ) );
+
+   // registering the Movies Page: Content Top Section Sidebar
+   register_sidebar( array(
+      'name'            => __( 'Movies Page: Content Top Section', 'colormag' ),
+      'id'              => 'colormag_movies_page_content_top_section',
+      'description'     => __( 'Content Top Section', 'colormag' ),
+      'before_widget'   => '<section id="%1$s" class="widget %2$s clearfix">',
+      'after_widget'    => '</section>',
+      'before_title'    => '<h3 class="widget-title"><span>',
+      'after_title'     => '</span></h3>'
+   ) );
+
+   // registering the Music Page: Content Top Section Sidebar
+   register_sidebar( array(
+      'name'            => __( 'Music Page: Content Top Section', 'colormag' ),
+      'id'              => 'colormag_music_page_content_top_section',
+      'description'     => __( 'Content Top Section', 'colormag' ),
+      'before_widget'   => '<section id="%1$s" class="widget %2$s clearfix">',
+      'after_widget'    => '</section>',
+      'before_title'    => '<h3 class="widget-title"><span>',
+      'after_title'     => '</span></h3>'
+   ) );
+
 
    // Registering contact Page sidebar
    register_sidebar( array(
