@@ -666,7 +666,7 @@ class WP_Widget_Categories extends WP_Widget {
 		}
 
 		$cat_args = array(
-			'orderby'      => 'name',
+			'orderby'      => 'slug',
 			'show_count'   => $c,
 			'hierarchical' => $h
 		);
